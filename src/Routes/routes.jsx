@@ -2,6 +2,8 @@ import { createBrowserRouter } from "react-router";
 import MainLayout from "../Layout/MainLayout";
 import HomePage from "../Pages/HomePage";
 import ErrorPage from "../Pages/ErrorPage";
+import TimeLine from "../Pages/TimeLine";
+import State from "../Pages/State";
 
 export const router = createBrowserRouter([
     {
@@ -13,8 +15,12 @@ export const router = createBrowserRouter([
                 Component: HomePage,
             },
             {
-                path:"/hudai",
-                element:<div>hi sakil baby</div>
+                path: "/timeline",
+                Component: TimeLine
+            },
+            {
+                path: "/state",
+                Component: State
             }
 
         ],
