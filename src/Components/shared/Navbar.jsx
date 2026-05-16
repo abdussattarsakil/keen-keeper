@@ -9,30 +9,27 @@ const Navbar = () => {
             <div>
                 <img src="/assets/logo.png" alt="brand logo" />
             </div>
-            <div className="flex gap-4">
-                <div className="flex items-center">
-                    <IoHomeOutline />
+            <div className="flex gap-2">
+                <div className="">
                     <NavLink to="/"
-                        className={({ isActive }) => ` ${isActive ? "bg-green-500" : "bg-gray-600"}`}
-                    >
+                        className={({ isActive }) => `p-2 rounded-xl font-semibold flex items-center ${isActive ? "bg-green-900 text-white" : "text-gray-600"}`}
+                    ><IoHomeOutline />
                         Home</NavLink>
                 </div>
 
 
-                <div className="flex items-center">
-                    <RiTimeLine />
+                <div className="">
                     <NavLink to="/timeline"
-                        className={({ isActive }) => ` ${isActive ? "bg-green-500" : "bg-gray-600"}`}
-                    >
+                        className={({ isActive }) => `p-2 rounded-xl font-semibold flex items-center ${isActive ? "bg-green-900 text-white" : "text-gray-600"}`}
+                    ><RiTimeLine />
                         Timeline</NavLink>
                 </div>
 
 
-                <div className="flex items-center">
-                    <MdQueryStats className=""/>
+                <div className="">
                     <NavLink to="/state"
-                        className={({ isActive }) => ` ${isActive ? "bg-green-500" : "bg-gray-600"}`}
-                    >
+                        className={({ isActive }) => `p-2 rounded-xl font-semibold flex items-center ${isActive ? "bg-green-900 text-white" : "text-gray-600"}`}
+                    ><MdQueryStats />
                         State</NavLink>
                 </div>
 
