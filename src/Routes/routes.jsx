@@ -21,7 +21,12 @@ export const router = createBrowserRouter([
             {
                 path: "/state",
                 Component: State
+            },
+            {
+                path: "/vercel",
+                element: <div>check vercel deploy</div>
             }
+
 
         ],
         errorElement: <ErrorPage />
