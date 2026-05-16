@@ -35,7 +35,7 @@ const Navbar = () => {
             </div>
 
             {/* mobile dropdown */}
-            <div className="dropdown dropdown-hover">
+            <div className="dropdown dropdown-hover md:hidden">
                 <div tabIndex={0} role="button" className="btn m-1">Menubar</div>
                 <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                     <li>
