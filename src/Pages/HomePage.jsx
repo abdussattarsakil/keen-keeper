@@ -1,9 +1,8 @@
+import BannerStatic from "../Components/BannerStatic";
 
 const HomePage = () => {
     return (
-        <div>
-            
-        </div>
+       <BannerStatic />
     );
 };
 
