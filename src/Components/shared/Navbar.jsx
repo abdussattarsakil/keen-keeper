@@ -9,7 +9,7 @@ const Navbar = () => {
             <div>
                 <img src="/assets/logo.png" alt="brand logo" />
             </div>
-            <div className="flex gap-2">
+            <div className="hidden md:flex gap-2">
                 <div className="">
                     <NavLink to="/"
                         className={({ isActive }) => `p-2 rounded-xl font-semibold flex items-center ${isActive ? "bg-green-900 text-white" : "text-gray-600"}`}
@@ -32,8 +32,41 @@ const Navbar = () => {
                     ><MdQueryStats />
                         State</NavLink>
                 </div>
+            </div>
+
+            {/* mobile dropdown */}
+            <div className="dropdown dropdown-hover">
+                <div tabIndex={0} role="button" className="btn m-1">Menubar</div>
+                <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                    <li>
+                        <div className="">
+                            <NavLink to="/"
+                                className={({ isActive }) => `p-2 rounded-xl font-semibold flex items-center ${isActive ? "bg-green-900 text-white" : "text-gray-600"}`}
+                            ><IoHomeOutline />
+                                Home</NavLink>
+                        </div>
+                    </li>
 
 
+                    <li>
+                        <div className="">
+                            <NavLink to="/timeline"
+                                className={({ isActive }) => `p-2 rounded-xl font-semibold flex items-center ${isActive ? "bg-green-900 text-white" : "text-gray-600"}`}
+                            ><RiTimeLine />
+                                Timeline</NavLink>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div className="">
+                            <NavLink to="/state"
+                                className={({ isActive }) => `p-2 rounded-xl font-semibold flex items-center ${isActive ? "bg-green-900 text-white" : "text-gray-600"}`}
+                            ><MdQueryStats />
+                                State</NavLink>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     );
