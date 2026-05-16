@@ -16,9 +16,9 @@ const Footer = () => {
                 </div>                
             </div>
             <div className="container mx-auto h-[px] border-t bg-gray-500 m-5"></div>
-            <div className="flex justify-around">
+            <div className="md:flex justify-around text-center space-y-2">
                 <p className="text-gray-400">© 2026 KeenKeeper. All rights reserved.</p>
-                <div className="flex gap-5 text-gray-400">
+                <div className="md:flex gap-5 text-gray-400">
                     <p>Privacy Policy</p>
                     <p>Terms of Service</p>
                     <p>Cookies</p>
