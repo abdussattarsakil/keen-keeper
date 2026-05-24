@@ -4,6 +4,8 @@ import textImg from "/assets/text.png"
 import videoImg from "/assets/video.png"
 import { MdSnooze } from "react-icons/md";
 import { RiArchiveLine, RiDeleteBin6Line } from "react-icons/ri";
+import { useContext } from "react";
+import { TimelineContext } from "./context/TimelineContext";
 
 const ProfileDetails = () => {
     const data = useLoaderData();
@@ -16,6 +18,10 @@ const ProfileDetails = () => {
     const { name, picture, email, days_since_contact, status, tags, bio, goal, next_due_date } = exceptedProfile
 
     // console.log(name,goal);
+
+
+    const { handleTimelineData, TimelineUpdate } = useContext(TimelineContext);
+    console.log(TimelineUpdate);
 
     return (
         <div>
@@ -134,17 +140,17 @@ const ProfileDetails = () => {
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 
-                            <button className="border rounded-xl py-6 hover:bg-gray-100 flex flex-col items-center">
+                            <button onClick={()=>handleTimelineData("Call",exceptedProfile)} className="border rounded-xl py-6 hover:bg-gray-100 flex flex-col items-center">
                                 <img src={callImg} alt="" />
                                 <span className="mt-2">Call</span>
                             </button>
 
-                            <button className="border rounded-xl py-6 hover:bg-gray-100 flex flex-col items-center">
+                            <button onClick={()=>handleTimelineData("Text",exceptedProfile)} className="border rounded-xl py-6 hover:bg-gray-100 flex flex-col items-center">
                                 <img src={textImg} alt="" />
                                 <span className="mt-2">Text</span>
                             </button>
 
-                            <button className="border rounded-xl py-6 hover:bg-gray-100 flex flex-col items-center">
+                            <button onClick={()=>handleTimelineData("Video",exceptedProfile)} className="border rounded-xl py-6 hover:bg-gray-100 flex flex-col items-center">
                                 <img src={videoImg} alt="" />
                                 <span className="mt-2">Video</span>
                             </button>
