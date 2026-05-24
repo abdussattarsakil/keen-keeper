@@ -1,290 +1,342 @@
 [
-  {
-    "id": 1,
-    "name": "Aiden Markram",
-    "picture": "https://i.pravatar.cc/400?img=54",
-    "email": "aiden.markram@example.com",
-    "days_since_contact": 9,
-    "status": "almost due",
-    "tags": ["colleague"],
-    "bio": "Met during a collaborative project.",
-    "goal": 9,
-    "next_due_date": "Jul 20, 2025"
-  },
-  {
-    "id": 2,
-    "name": "Pat Cummins",
-    "picture": "https://i.pravatar.cc/400?img=11",
-    "email": "pat.cummins@example.com",
-    "days_since_contact": 5,
-    "status": "on-track",
-    "tags": ["mentor"],
-    "bio": "Guided me in career growth.",
-    "goal": 10,
-    "next_due_date": "Jul 18, 2025"
-  },
-  {
-    "id": 3,
-    "name": "Mustafizur Rahman",
-    "picture": "https://i.pravatar.cc/400?img=12",
-    "email": "mustafizur.rahman@example.com",
-    "days_since_contact": 15,
-    "status": "overdue",
-    "tags": ["friend", "school"],
-    "bio": "Friend from school days.",
-    "goal": 10,
-    "next_due_date": "Jul 15, 2025"
-  },
-  {
-    "id": 4,
-    "name": "Quinton de Kock",
-    "picture": "https://i.pravatar.cc/400?img=13",
-    "email": "quinton.kock@example.com",
-    "days_since_contact": 7,
-    "status": "almost due",
-    "tags": ["friend"],
-    "bio": "Workout partner from gym.",
-    "goal": 8,
-    "next_due_date": "Jul 19, 2025"
-  },
-  {
-    "id": 5,
-    "name": "David Warner",
-    "picture": "https://i.pravatar.cc/400?img=14",
-    "email": "david.warner@example.com",
-    "days_since_contact": 11,
-    "status": "overdue",
-    "tags": ["friend", "college"],
-    "bio": "Best friend from university.",
-    "goal": 9,
-    "next_due_date": "Jul 17, 2025"
-  },
-  {
-    "id": 6,
-    "name": "Shakib Al Hasan",
-    "picture": "https://i.pravatar.cc/400?img=15",
-    "email": "shakib.hasan@example.com",
-    "days_since_contact": 6,
-    "status": "on-track",
-    "tags": ["family"],
-    "bio": "Close cousin, meet often.",
-    "goal": 10,
-    "next_due_date": "Jul 18, 2025"
-  },
-  {
-    "id": 7,
-    "name": "Jason Holder",
-    "picture": "https://i.pravatar.cc/400?img=55",
-    "email": "jason.holder@example.com",
-    "days_since_contact": 13,
-    "status": "overdue",
-    "tags": ["partner"],
-    "bio": "Business partner and collaborator.",
-    "goal": 9,
-    "next_due_date": "Jul 16, 2025"
-  },
-  {
-    "id": 8,
-    "name": "Mohammad Rizwan",
-    "picture": "https://i.pravatar.cc/400?img=17",
-    "email": "rizwan@example.com",
-    "days_since_contact": 4,
-    "status": "on-track",
-    "tags": ["friend"],
-    "bio": "Met through community events.",
-    "goal": 9,
-    "next_due_date": "Jul 19, 2025"
-  },
-  {
-    "id": 9,
-    "name": "Jos Buttler",
-    "picture": "https://i.pravatar.cc/400?img=18",
-    "email": "jos.buttler@example.com",
-    "days_since_contact": 3,
-    "status": "on-track",
-    "tags": ["colleague"],
-    "bio": "Teammate from previous job.",
-    "goal": 10,
-    "next_due_date": "Jul 20, 2025"
-  },
-  {
-    "id": 10,
-    "name": "Shaheen Afridi",
-    "picture": "https://i.pravatar.cc/400?img=56",
-    "email": "shaheen.afridi@example.com",
-    "days_since_contact": 14,
-    "status": "overdue",
-    "tags": ["friend", "online"],
-    "bio": "Met through online platform.",
-    "goal": 10,
-    "next_due_date": "Jul 15, 2025"
-  },
-  {
-    "id": 11,
-    "name": "Rahmanullah Gurbaz",
-    "picture": "https://i.pravatar.cc/400?img=57",
-    "email": "gurbaz@example.com",
-    "days_since_contact": 8,
-    "status": "almost due",
-    "tags": ["friend"],
-    "bio": "Connected through sports activities.",
-    "goal": 8,
-    "next_due_date": "Jul 19, 2025"
-  },
-  {
-    "id": 12,
-    "name": "Steve Smith",
-    "picture": "https://i.pravatar.cc/400?img=58",
-    "email": "steve.smith@example.com",
-    "days_since_contact": 2,
-    "status": "on-track",
-    "tags": ["colleague"],
-    "bio": "Senior colleague and advisor.",
-    "goal": 10,
-    "next_due_date": "Jul 20, 2025"
-  },
-  {
-    "id": 13,
-    "name": "Devon Conway",
-    "picture": "https://i.pravatar.cc/400?img=59",
-    "email": "devon.conway@example.com",
-    "days_since_contact": 9,
-    "status": "overdue",
-    "tags": ["friend"],
-    "bio": "Met during a travel trip.",
-    "goal": 8,
-    "next_due_date": "Jul 18, 2025"
-  },
-  {
-    "id": 14,
-    "name": "Ben Stokes",
-    "picture": "https://i.pravatar.cc/400?img=60",
-    "email": "ben.stokes@example.com",
-    "days_since_contact": 6,
-    "status": "on-track",
-    "tags": ["manager"],
-    "bio": "Former manager at workplace.",
-    "goal": 9,
-    "next_due_date": "Jul 19, 2025"
-  },
-  {
-    "id": 15,
-    "name": "Kagiso Rabada",
-    "picture": "https://i.pravatar.cc/400?img=61",
-    "email": "rabada@example.com",
-    "days_since_contact": 12,
-    "status": "overdue",
-    "tags": ["contact"],
-    "bio": "Professional networking contact.",
-    "goal": 9,
-    "next_due_date": "Jul 16, 2025"
-  },
-  {
-    "id": 16,
-    "name": "Tamim Iqbal",
-    "picture": "https://i.pravatar.cc/400?img=62",
-    "email": "tamim.iqbal@example.com",
-    "days_since_contact": 10,
-    "status": "overdue",
-    "tags": ["family"],
-    "bio": "Close family member.",
-    "goal": 8,
-    "next_due_date": "Jul 17, 2025"
-  },
-  {
-    "id": 17,
-    "name": "Rashid Khan",
-    "picture": "https://i.pravatar.cc/400?img=70",
-    "email": "rashid.khan@example.com",
-    "days_since_contact": 1,
-    "status": "on-track",
-    "tags": ["friend"],
-    "bio": "One of my closest friends.",
-    "goal": 10,
-    "next_due_date": "Jul 21, 2025"
-  },
-  {
-    "id": 18,
-    "name": "Babar Azam",
-    "picture": "https://i.pravatar.cc/400?img=69",
-    "email": "babar.azam@example.com",
-    "days_since_contact": 2,
-    "status": "on-track",
-    "tags": ["friend", "college"],
-    "bio": "Friend from university.",
-    "goal": 10,
-    "next_due_date": "Jul 20, 2025"
-  },
-  {
-    "id": 19,
-    "name": "Nicholas Pooran",
-    "picture": "https://i.pravatar.cc/400?img=68",
-    "email": "pooran@example.com",
-    "days_since_contact": 11,
-    "status": "overdue",
-    "tags": ["friend"],
-    "bio": "Met through online gaming.",
-    "goal": 9,
-    "next_due_date": "Jul 17, 2025"
-  },
-  {
-    "id": 20,
-    "name": "Alzarri Joseph",
-    "picture": "https://i.pravatar.cc/400?img=67",
-    "email": "joseph@example.com",
-    "days_since_contact": 13,
-    "status": "overdue",
-    "tags": ["neighbour"],
-    "bio": "Lives nearby, good relation.",
-    "goal": 8,
-    "next_due_date": "Jul 16, 2025"
-  },
-  {
-    "id": 21,
-    "name": "Kane Williamson",
-    "picture": "https://i.pravatar.cc/400?img=66",
-    "email": "williamson@example.com",
-    "days_since_contact": 5,
-    "status": "on-track",
-    "tags": ["client"],
-    "bio": "Client from previous project.",
-    "goal": 9,
-    "next_due_date": "Jul 19, 2025"
-  },
-  {
-    "id": 22,
-    "name": "Trent Boult",
-    "picture": "https://i.pravatar.cc/400?img=65",
-    "email": "boult@example.com",
-    "days_since_contact": 7,
-    "status": "on-track",
-    "tags": ["friend"],
-    "bio": "Workout accountability partner.",
-    "goal": 9,
-    "next_due_date": "Jul 18, 2025"
-  },
-  {
-    "id": 23,
-    "name": "Joe Root",
-    "picture": "https://i.pravatar.cc/400?img=64",
-    "email": "joe.root@example.com",
-    "days_since_contact": 3,
-    "status": "on-track",
-    "tags": ["colleague"],
-    "bio": "Friendly colleague at work.",
-    "goal": 10,
-    "next_due_date": "Jul 20, 2025"
-  },
-  {
-    "id": 24,
-    "name": "Mohammad Nabi",
-    "picture": "https://i.pravatar.cc/400?img=63",
-    "email": "nabi@example.com",
-    "days_since_contact": 9,
-    "status": "overdue",
-    "tags": ["mentor"],
-    "bio": "Respected mentor in community.",
-    "goal": 8,
-    "next_due_date": "Jul 18, 2025"
-  }
+    {
+        "id": 1,
+        "name": "Abdus Sattar",
+        "picture": "https://scontent.fdac5-1.fna.fbcdn.net/v/t39.30808-6/658246041_122123654277105251_706745410263548839_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=R236YUiMRAIQ7kNvwGODCn9&_nc_oc=AdpWTRcfe7uvO_c7cPPYY6f695C5tfFAVhlN45T7ekl1vEc05elLjnL8xABmux4D9fI&_nc_zt=23&_nc_ht=scontent.fdac5-1.fna&_nc_gid=HKS5CR2tQ-5FpTlXvzj59g&_nc_ss=7b289&oh=00_Af4_902UUWlyk7yinGiyQhNtkPNrWEkfAB2cqtjQO_ZgdQ&oe=6A18C088",
+        "email": "webdev.abdus.sattar@gmail.com",
+        "days_since_contact": 1,
+        "status": "on-track",
+        "tags": [
+            "colleague"
+        ],
+        "bio": "Met during a collaborative project.",
+        "goal": 3,
+        "next_due_date": "Jun 27, 2026"
+    },
+    {
+        "id": 2,
+        "name": "Pat Cummins",
+        "picture": "https://i.pravatar.cc/400?img=11",
+        "email": "pat.cummins@example.com",
+        "days_since_contact": 5,
+        "status": "on-track",
+        "tags": [
+            "mentor"
+        ],
+        "bio": "Guided me in career growth.",
+        "goal": 10,
+        "next_due_date": "Jul 18, 2025"
+    },
+    {
+        "id": 3,
+        "name": "Mustafizur Rahman",
+        "picture": "https://i.pravatar.cc/400?img=12",
+        "email": "mustafizur.rahman@example.com",
+        "days_since_contact": 15,
+        "status": "overdue",
+        "tags": [
+            "friend",
+            "school"
+        ],
+        "bio": "Friend from school days.",
+        "goal": 10,
+        "next_due_date": "Jul 15, 2025"
+    },
+    {
+        "id": 4,
+        "name": "Quinton de Kock",
+        "picture": "https://i.pravatar.cc/400?img=13",
+        "email": "quinton.kock@example.com",
+        "days_since_contact": 7,
+        "status": "almost due",
+        "tags": [
+            "friend"
+        ],
+        "bio": "Workout partner from gym.",
+        "goal": 8,
+        "next_due_date": "Jul 19, 2025"
+    },
+    {
+        "id": 5,
+        "name": "David Warner",
+        "picture": "https://i.pravatar.cc/400?img=14",
+        "email": "david.warner@example.com",
+        "days_since_contact": 11,
+        "status": "overdue",
+        "tags": [
+            "friend",
+            "college"
+        ],
+        "bio": "Best friend from university.",
+        "goal": 9,
+        "next_due_date": "Jul 17, 2025"
+    },
+    {
+        "id": 6,
+        "name": "Shakib Al Hasan",
+        "picture": "https://i.pravatar.cc/400?img=15",
+        "email": "shakib.hasan@example.com",
+        "days_since_contact": 6,
+        "status": "on-track",
+        "tags": [
+            "family"
+        ],
+        "bio": "Close cousin, meet often.",
+        "goal": 10,
+        "next_due_date": "Jul 18, 2025"
+    },
+    {
+        "id": 7,
+        "name": "Jason Holder",
+        "picture": "https://i.pravatar.cc/400?img=55",
+        "email": "jason.holder@example.com",
+        "days_since_contact": 13,
+        "status": "overdue",
+        "tags": [
+            "partner"
+        ],
+        "bio": "Business partner and collaborator.",
+        "goal": 9,
+        "next_due_date": "Jul 16, 2025"
+    },
+    {
+        "id": 8,
+        "name": "Mohammad Rizwan",
+        "picture": "https://i.pravatar.cc/400?img=17",
+        "email": "rizwan@example.com",
+        "days_since_contact": 4,
+        "status": "on-track",
+        "tags": [
+            "friend"
+        ],
+        "bio": "Met through community events.",
+        "goal": 9,
+        "next_due_date": "Jul 19, 2025"
+    },
+    {
+        "id": 9,
+        "name": "Jos Buttler",
+        "picture": "https://i.pravatar.cc/400?img=18",
+        "email": "jos.buttler@example.com",
+        "days_since_contact": 3,
+        "status": "on-track",
+        "tags": [
+            "colleague"
+        ],
+        "bio": "Teammate from previous job.",
+        "goal": 10,
+        "next_due_date": "Jul 20, 2025"
+    },
+    {
+        "id": 10,
+        "name": "Shaheen Afridi",
+        "picture": "https://i.pravatar.cc/400?img=56",
+        "email": "shaheen.afridi@example.com",
+        "days_since_contact": 14,
+        "status": "overdue",
+        "tags": [
+            "friend",
+            "online"
+        ],
+        "bio": "Met through online platform.",
+        "goal": 10,
+        "next_due_date": "Jul 15, 2025"
+    },
+    {
+        "id": 11,
+        "name": "Rahmanullah Gurbaz",
+        "picture": "https://i.pravatar.cc/400?img=57",
+        "email": "gurbaz@example.com",
+        "days_since_contact": 8,
+        "status": "almost due",
+        "tags": [
+            "friend"
+        ],
+        "bio": "Connected through sports activities.",
+        "goal": 8,
+        "next_due_date": "Jul 19, 2025"
+    },
+    {
+        "id": 12,
+        "name": "Steve Smith",
+        "picture": "https://i.pravatar.cc/400?img=58",
+        "email": "steve.smith@example.com",
+        "days_since_contact": 2,
+        "status": "on-track",
+        "tags": [
+            "colleague"
+        ],
+        "bio": "Senior colleague and advisor.",
+        "goal": 10,
+        "next_due_date": "Jul 20, 2025"
+    },
+    {
+        "id": 13,
+        "name": "Devon Conway",
+        "picture": "https://i.pravatar.cc/400?img=59",
+        "email": "devon.conway@example.com",
+        "days_since_contact": 9,
+        "status": "overdue",
+        "tags": [
+            "friend"
+        ],
+        "bio": "Met during a travel trip.",
+        "goal": 8,
+        "next_due_date": "Jul 18, 2025"
+    },
+    {
+        "id": 14,
+        "name": "Ben Stokes",
+        "picture": "https://i.pravatar.cc/400?img=60",
+        "email": "ben.stokes@example.com",
+        "days_since_contact": 6,
+        "status": "on-track",
+        "tags": [
+            "manager"
+        ],
+        "bio": "Former manager at workplace.",
+        "goal": 9,
+        "next_due_date": "Jul 19, 2025"
+    },
+    {
+        "id": 15,
+        "name": "Kagiso Rabada",
+        "picture": "https://i.pravatar.cc/400?img=61",
+        "email": "rabada@example.com",
+        "days_since_contact": 12,
+        "status": "overdue",
+        "tags": [
+            "contact"
+        ],
+        "bio": "Professional networking contact.",
+        "goal": 9,
+        "next_due_date": "Jul 16, 2025"
+    },
+    {
+        "id": 16,
+        "name": "Tamim Iqbal",
+        "picture": "https://i.pravatar.cc/400?img=62",
+        "email": "tamim.iqbal@example.com",
+        "days_since_contact": 10,
+        "status": "overdue",
+        "tags": [
+            "family"
+        ],
+        "bio": "Close family member.",
+        "goal": 8,
+        "next_due_date": "Jul 17, 2025"
+    },
+    {
+        "id": 17,
+        "name": "Rashid Khan",
+        "picture": "https://i.pravatar.cc/400?img=70",
+        "email": "rashid.khan@example.com",
+        "days_since_contact": 1,
+        "status": "on-track",
+        "tags": [
+            "friend"
+        ],
+        "bio": "One of my closest friends.",
+        "goal": 10,
+        "next_due_date": "Jul 21, 2025"
+    },
+    {
+        "id": 18,
+        "name": "Babar Azam",
+        "picture": "https://i.pravatar.cc/400?img=69",
+        "email": "babar.azam@example.com",
+        "days_since_contact": 2,
+        "status": "on-track",
+        "tags": [
+            "friend",
+            "college"
+        ],
+        "bio": "Friend from university.",
+        "goal": 10,
+        "next_due_date": "Jul 20, 2025"
+    },
+    {
+        "id": 19,
+        "name": "Nicholas Pooran",
+        "picture": "https://i.pravatar.cc/400?img=68",
+        "email": "pooran@example.com",
+        "days_since_contact": 11,
+        "status": "overdue",
+        "tags": [
+            "friend"
+        ],
+        "bio": "Met through online gaming.",
+        "goal": 9,
+        "next_due_date": "Jul 17, 2025"
+    },
+    {
+        "id": 20,
+        "name": "Alzarri Joseph",
+        "picture": "https://i.pravatar.cc/400?img=67",
+        "email": "joseph@example.com",
+        "days_since_contact": 13,
+        "status": "overdue",
+        "tags": [
+            "neighbour"
+        ],
+        "bio": "Lives nearby, good relation.",
+        "goal": 8,
+        "next_due_date": "Jul 16, 2025"
+    },
+    {
+        "id": 21,
+        "name": "Kane Williamson",
+        "picture": "https://i.pravatar.cc/400?img=66",
+        "email": "williamson@example.com",
+        "days_since_contact": 5,
+        "status": "on-track",
+        "tags": [
+            "client"
+        ],
+        "bio": "Client from previous project.",
+        "goal": 9,
+        "next_due_date": "Jul 19, 2025"
+    },
+    {
+        "id": 22,
+        "name": "Trent Boult",
+        "picture": "https://i.pravatar.cc/400?img=65",
+        "email": "boult@example.com",
+        "days_since_contact": 7,
+        "status": "on-track",
+        "tags": [
+            "friend"
+        ],
+        "bio": "Workout accountability partner.",
+        "goal": 9,
+        "next_due_date": "Jul 18, 2025"
+    },
+    {
+        "id": 23,
+        "name": "Joe Root",
+        "picture": "https://i.pravatar.cc/400?img=64",
+        "email": "joe.root@example.com",
+        "days_since_contact": 3,
+        "status": "on-track",
+        "tags": [
+            "colleague"
+        ],
+        "bio": "Friendly colleague at work.",
+        "goal": 10,
+        "next_due_date": "Jul 20, 2025"
+    },
+    {
+        "id": 24,
+        "name": "Mohammad Nabi",
+        "picture": "https://i.pravatar.cc/400?img=63",
+        "email": "nabi@example.com",
+        "days_since_contact": 9,
+        "status": "overdue",
+        "tags": [
+            "mentor"
+        ],
+        "bio": "Respected mentor in community.",
+        "goal": 8,
+        "next_due_date": "Jul 18, 2025"
+    }
 ]
