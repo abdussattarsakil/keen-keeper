@@ -13,7 +13,7 @@ const AllCard = () => {
     const allData = use(dataPromise);
     console.log(allData,"allCard async data fetch");
     return (
-        <div>
+        <div className="container grid grid-cols-4 gap-5">
             {
                 allData.map(data=>(
                     <Card data={data}></Card>
