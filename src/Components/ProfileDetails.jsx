@@ -70,7 +70,7 @@ const ProfileDetails = () => {
                         Archive
                     </button>
 
-                    <button className="w-full py-3 btn">
+                    <button className="w-full py-3 btn text-red-500">
                         <RiDeleteBin6Line />
                         Delete
                     </button>
@@ -154,21 +154,6 @@ const ProfileDetails = () => {
 
                 </div>
             </div>
-
-            {/* <div>
-                <div className="">
-                    <div className="shadow-sm rounded-2xl text-center py-7 ">
-                        <img className="w-25 rounded-full mx-auto" src={picture} alt={data.name} />
-                        <h1 className="">{name}</h1>
-                        <p>{status}</p>
-                        <h2>{tags}</h2>
-                        <p>{email}</p>
-                    </div>
-                </div>
-                <button className="btn btn-success">Snooze</button>
-                <button className="btn btn-success">Archive</button>
-                <button className="btn btn-success">Delete</button>
-            </div> */}
         </div>
     );
 };
