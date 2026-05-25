@@ -1,13 +1,16 @@
 import { IoHomeOutline } from "react-icons/io5";
 import { MdQueryStats } from "react-icons/md";
 import { RiTimeLine } from "react-icons/ri";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
     return (
         <div className="flex justify-around shadow p-3">
             <div>
+                <Link to={"/"}>
                 <img src="/assets/logo.png" alt="brand logo" />
+                </Link>
+                
             </div>
             <div className="hidden md:flex gap-2">
                 <div className="">
