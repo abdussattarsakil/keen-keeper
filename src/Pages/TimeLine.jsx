@@ -5,6 +5,7 @@ import callImg from "/assets/call.png"
 import videoImg from "/assets/video.png"
 import textImg from "/assets/text.png"
 import { RxDropdownMenu } from "react-icons/rx";
+import { Link } from "react-router";
 
 
 const actionImages = {
@@ -16,8 +17,8 @@ const actionImages = {
 
 const TimeLine = () => {
 
-    const { TimelineUpdate,text } = useContext(TimelineContext);
-    console.log(text);
+    const { TimelineUpdate, text, call, video } = useContext(TimelineContext);
+    // console.log(text);
 
 
 
@@ -30,9 +31,9 @@ const TimeLine = () => {
             data => data.action === filter
         );
 
-        
-    return (
-        <div className="container mx-auto my-10">
+
+    return (<>
+        <div className={`container mx-auto my-10 ${call === 0 && text === 0 && video === 0 && "hidden"}`}>
             <h1 className="text-3xl font-bold my-10">Timeline</h1>
 
             <div class="dropdown dropdown-start">
@@ -78,6 +79,31 @@ const TimeLine = () => {
                 ))
             }
         </div>
+
+
+
+        <div className={`flex justify-center items-center my-10 border border-dashed container mx-auto p-20 border-gray-300  ${call > 0 || text > 0 || video > 0 ? "hidden" : ""}`}>
+            <div className="text-center max-w-md">
+
+                {/* Title */}
+                <h2 className="text-2xl font-semibold text-gray-800 mb-2">
+                    Oops! No data here
+                </h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-2">
+                    It looks like there is nothing here.
+                </h2>
+
+                {/* Button */}
+                <Link
+                    to="/"
+                    className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-600 transition"
+                >
+                    Go Back Home
+                </Link>
+
+            </div>
+        </div>
+    </>
     );
 };
 
