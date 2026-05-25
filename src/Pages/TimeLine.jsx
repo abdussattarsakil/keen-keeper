@@ -16,8 +16,8 @@ const actionImages = {
 
 const TimeLine = () => {
 
-    const { TimelineUpdate } = useContext(TimelineContext);
-    console.log(TimelineUpdate);
+    const { TimelineUpdate,text } = useContext(TimelineContext);
+    console.log(text);
 
 
 

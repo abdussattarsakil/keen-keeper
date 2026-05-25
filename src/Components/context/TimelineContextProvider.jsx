@@ -5,8 +5,20 @@ import { toast } from "react-toastify";
 const TimelineContextProvider = ({ children }) => {
 
     const [TimelineUpdate, setTimelineUpdate] = useState([]);
+    let [text, setText] = useState(0);
+    let [call, setCall] = useState(0);
+    let [video, setVideo] = useState(0);
 
     const handleTimelineData = (type, profileData) => {
+        if (type === "Text") {
+            setText(text + 1)
+        }
+        if (type === "Call") {
+            setCall(call + 1)
+        }
+        if (type === "Video") {
+            setVideo(video + 1)
+        }
         const newData = {
             action: type,
             ...profileData,
@@ -22,7 +34,10 @@ const TimelineContextProvider = ({ children }) => {
 
     const timelineData = {
         handleTimelineData,
-        TimelineUpdate
+        TimelineUpdate,
+        text,
+        call,
+        video
     }
 
     return (
