@@ -33,8 +33,8 @@ const TimeLine = () => {
 
 
     return (<>
+        <h1 className="text-3xl font-bold my-10 container mx-auto">Timeline</h1>
         <div className={`container mx-auto my-10 ${call === 0 && text === 0 && video === 0 && "hidden"}`}>
-            <h1 className="text-3xl font-bold my-10">Timeline</h1>
 
             <div class="dropdown dropdown-start">
                 <div tabIndex="0" role="button" class="btn w-full m-1 p-5 flex justify-between">Filter timeline <RxDropdownMenu /></div>

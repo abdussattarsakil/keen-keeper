@@ -11,6 +11,7 @@ const State = () => {
         { name: 'Video', value: video, fill: '#FFBB28' },
     ];
     return (<>
+        <h1 className="container mx-auto my-10 text-3xl font-bold">Friendship Analytics</h1>
         <div className={`flex justify-center items-center my-10 ${call === 0 && text === 0 && video === 0 && "hidden"}`}>
             <PieChart style={{ width: '100%', maxWidth: '500px', maxHeight: '80vh', aspectRatio: 1 }} responsive>
                 <Pie
@@ -29,7 +30,7 @@ const State = () => {
                 <Tooltip />
             </PieChart>
         </div>
-        <div className={`flex justify-center items-center my-10 border border-dashed container mx-auto p-20 border-gray-300  ${call > 0 || text > 0 || video > 0 ? "hidden":""}`}>
+        <div className={`flex justify-center items-center my-10 border border-dashed container mx-auto p-20 border-gray-300  ${call > 0 || text > 0 || video > 0 ? "hidden" : ""}`}>
             <div className="text-center max-w-md">
 
                 {/* Title */}
