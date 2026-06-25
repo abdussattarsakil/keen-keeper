@@ -2,8 +2,7 @@
     {
         "id": 1,
         "name": "Abdus Sattar",
-        "picture": "https://scontent.fdac5-1.fna.fbcdn.net/v/t39.30808-6/658246041_122123654277105251_706745410263548839_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=R236YUiMRAIQ7kNvwGODCn9&_nc_oc=AdpWTRcfe7uvO_c7cPPYY6f695C5tfFAVhlN45T7ekl1vEc05elLjnL8xABmux4D9fI&_nc_zt=23&_nc_ht=scontent.fdac5-1.fna&_nc_gid=HKS5CR2tQ-5FpTlXvzj59g&_nc_ss=7b289&oh=00_Af4_902UUWlyk7yinGiyQhNtkPNrWEkfAB2cqtjQO_ZgdQ&oe=6A18C088",
-        "email": "webdev.abdus.sattar@gmail.com",
+        "picture": "https://plus.unsplash.com/premium_vector-1683141132250-12daa3bd85cf?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "days_since_contact": 1,
         "status": "on-track",
         "tags": [
